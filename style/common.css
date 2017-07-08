@@ -1,0 +1,190 @@
+/* CSS Document */
+@charset "utf-8";
+/* 清零代码 */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+
+/* remember to define focus styles! */
+:focus {
+    outline: 0;
+}
+
+/* remember to highlight inserts somehow! */
+ins {
+    text-decoration: none;
+}
+del {
+    text-decoration: line-through;
+}
+
+/* tables still need 'cellspacing="0"' in the markup */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+/*清浮动*/
+.dearfix:after{content:""; display:block; clear:both;}
+.clearfix{zoom:1;}
+
+/*头部的一小部分*/
+.fl{float:left;}
+.fr{float:right;}
+.hearerBox{background:#fff;height: 78px;position: relative;}
+.hearerBox_rtop{float:right;font-size: 15px; margin-top: 10px;}
+.nalan{margin: 15px 0 0 130px;}
+.nalan1{margin: 38px 0 0 0;}
+.n{margin-right: 150px;}
+.m{margin-left: 8px;}
+.search{font-style: 15px;margin: -30px 0 3px 770px;}
+.search_input{ line-height: 20px; width: 150px;background-color: #fff;border: 3px solid #ccc;}
+
+/*身材部分*/
+.body1{position: relative; height: 580px;width: 1240px;}
+.block1{position:absolute; z-index:0;}
+.block2{position:absolute; z-insex:1;}
+.block3{position:absolute;color:#000;font-size: 20px; margin: 50px 0 0 550px;z-index:2;}
+.shandow1{position:absolute; margin: 372px 0 0 0;z-index:3;}
+.shandow2{position:absolute; margin: 372px 0 0 150px;z-index:4;}
+.photo1{position: absolute;margin: 372px 0px 0 300px;z-index:5;}
+.photo2{position: absolute;margin: 388px 0 0 500px;z-index:5;}
+.photo3{position: absolute;margin: 372px 0 0 700px;z-index:5;}
+.photo4{position: absolute;margin: 388px 0 0 900px;z-index:5;}
+
+/*照片部分*/
+.photo{position: relative; width: 1240px;height: 580px;}
+.zhaopian{margin-left: 80px; }
+.zhaopian1{margin:  60px 0 0 40px; }
+.word{ text-decoration: none; margin-right: 50px;color: #000;font-size: 18px; }
+.word1{margin-right: 50px; color: #000;}
+.word2{margin-right: 50px; color: #000;}
+.word3{color: #000;}
+.time1{position: absolute;margin: 525px 0 0 80px;}
+.time2{position: absolute;margin: 525px 0 0 610px;}
+.time3{position: absolute;margin: 405px 0 0 975px;}
+
+
+/*广告部分*/
+.business{position: relative; width: 810px;height: 300px;}
+.word_sy{font-size: 40px; margin:10px 5px 0 196px; color: #f97c4a;font-weight: bold;
+font-family: "华文行楷";}
+.word_shey{font-size: 18px; margin: 20px 0 0 3px; color:#000;font-weight: bold;}
+.word_bu{font-size: 15px; margin: 25px 0 0 0px; color:#f86e9e;font-weight: bold;}
+.tuwen{margin: -25px 0 0 705px;}
+.line1{margin: 10px 0 0 200px;}
+.tu1{margin: 24px 0 0 150px;}
+.gword{ font-size: 15px; margin: 24px 0 0 6px;color:#f86e9e;}
+.gword1{ font-size: 18px; position: absolute;top: 104px;left: 258px;color:#000;
+             font-weight: bold;}
+.gword2{ width: 200px;height: 100px;font-size: 15px; position: absolute;top: 124px;
+               left: 258px;color:#000;lerrer-spacing: 5px;}
+.tu2{position: absolute;left: 488px;top: 90px;}
+.gword3{ font-size: 15px; position: absolute;top: 90px;left: 600px;color:#f86e9e;}
+.gword4{ font-size: 18px; position: absolute;top: 104px;left: 600px;color:#000;
+                   font-weight: bold;}
+.gword5{ width: 200px;height: 100px;font-size: 15px; position: absolute;
+              top: 124px;left: 605px;color:#000;lerrer-spacing: 5px;}
+.tuern2{position: absolute;top: 232px;left: 173px;}
+.tuern2_1{position: absolute;top: 232px;left: 510px;}
+.yinying3{position: absolute;top: 265px;left: 150px;}
+
+/*活动部分*/
+.action{ position: relative;width: 810px;height: 400px;}
+.tuandui{font-size: 40px; margin:10px 5px 0 196px; color: #f97c4a;font-weight: bold;
+font-family: "华文行楷";}
+.action0{font-size: 18px; margin: 20px 0 0 3px; color:#000;font-weight: bold;}
+.action1{font-size: 15px; margin: 25px 0 0 0px; color:#f86e9e;font-weight: bold;}
+.tuandui1{font-size: 40px; margin:10px 5px 0 106px; color: #f97c4a;font-weight: bold;
+font-family: "华文行楷";}
+.action2{font-size: 18px; margin: 20px 0 0 3px; color:#000;font-weight: bold;}
+.tuern1_1{margin: 25px 0 0 110px;}
+.tuwen1{width: 322px;height: 110px;margin: 24px 0 0 60px;}
+.tu3{margin-right: 10px;}
+.hword{ font-size: 15px;color:#f86e9e;font-weight: bold;lerrer-spacing: 5px; margin-bottom: 10px;}
+.hword1{font-size: 15px;color: #fff;font-weight: bold;lerrer-spacing: 5px;
+     margin: 10px 0 0 20px;}
+.line2{top: 74px;left: 400px;position: absolute;}
+.box_r{width: 330px;height: 250px;position: absolute;top: 90px;left: 425px;}
+.hword3{font-size: 15px; color:#f86e9e;font-weight: bold;margin: 0px 0 0 100px;}
+.juzhong{text-align: center;}
+.hword4{font-size: 15px;color: #000;font-weight: bold;lerrer-spacing: 5px;
+     margin: 10px 0 0 20px;}
+.yinying3{position: absolute;top: 280px;left: 150px;}
+.yinying3_1{position: absolute;top:350px;left: 150px;}
+/*炫耀爱情*/
+.right_box{width: 330px;height: 190px;position: absolute;left: 830px;top: 1600px;}
+.word_sy1{font-size: 40px; margin:10px 5px 0 10px; color: #f97c4a;font-weight: bold;
+font-family: "华文行楷";}
+.word_shey1{font-size: 18px; margin: 20px 0 0 3px; color:#000;font-weight: bold;}
+.word_bu1{font-size: 15px; margin: 25px 0 0 0px; color:#f86e9e;font-weight: bold;}
+.tu4{margin: 20px 15px 0 10px;}
+.hword1{ font-size: 15px;color:#f86e9e;font-weight: bold;lerrer-spacing: 5px;
+margin-bottom: 10px;}
+.right_box_1{position: absolute;top: 1820px;left: 820px;width: 338px;height: 445px;}
+.tu5{margin: 20px;}
+
+/*最下面*/
+.foot{width: 1240px;height: 280px;background-color: #333;padding-top: 16px;}
+.about{width: 215px;height: 43px;background-color: #222; margin:0px 0 0 202px;}
+.about0{width: 215px;height: 43px;background-color: #222; }
+.word_sy2{font-size: 40px; margin:10px 5px 0 10px; color: #f86e9e;font-weight: bold;
+font-family: "华文行楷";}
+.word_shey2{font-size: 15px; margin: 20px 0 0 3px; color:#fff;font-weight: bold;}
+.word_bu2{font-size: 12px; margin: 25px 0 0 0px; color:#fff;font-weight: bold;}
+.about1{width: 60px;height: 43px;background-color: #000; margin-right: 45px;}
+.about2{font-size:15px ;font-size: 15px; margin: 20px 0 0 3px; color:#fff;font-weight: bold;}
+.table{width: 1000px;height: 218px;border: 0;cellspacing: 0;cellpadding: 0; margin: 60px 0 0 230px;}
+.td1{font-size: 15px;color:#fff;font-weight: bold;lerrer-spacing: 10px;}
+.box1{width: 230px;height: 218px;}
+.box1_1{width: 250px;height: 218px;}
+.td2{position: absolute;top: 0;left: 0;}
+.td3{position: absolute;top: 0;left: 100px;}
+.td4{position: absolute;top: 0;left: 200px;}
+.td5{position: absolute;top: 94px;left: 0;}
+.td6{position: absolute;top: 94px;left: 100px;}
+.td7{position: absolute;top: 94px;left: 200px;}
+.box2{width: 320px;height: 188px;position: relative;}
+/*最最下面*/
+.box3{width: 1240px;height: 120px;background-color: #191919;padding-top: 30px;}
+.box4{width: 520px;height: 120px;margin: 0 auto;text-align: center;}
+.p_td{font-size: 18px;color:#fff;font-weight: bold;lerrer-spacing: 10px;}
+
+
+
+
+
+
+
+
+
+/*通用的样式*/
+.comwidth{width: 1240px;margin: 0 auto;position: relative;}
